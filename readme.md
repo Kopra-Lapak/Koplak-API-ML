@@ -10,6 +10,11 @@ This is the documentation for the Kopra Lapak Machine Learning API. It is a part
 
 # Tech We Use
 - Flask (Framework)
+- numpy (Scientific computing library)
+- Werkzeug (WSGI utility library)
+- TensorFlow (Machine learning library)
+- Pillow (Image processing library)
+- gdown (Download large files or datasets)
 - Cloud Run (Deployment)
 - Cloud Build (CI/CD)
 ```
