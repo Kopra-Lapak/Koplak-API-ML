@@ -1,6 +1,6 @@
 <center>
 
-# Kopra Lapak Backend API
+# Kopra Lapak Machine Learning API
 
 </center>
 
