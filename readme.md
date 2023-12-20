@@ -31,3 +31,7 @@ To run the API on your local computer, follow these steps:
     ```bash
      pip install -r requirements.txt
      ```
+3. Start the server
+    ```bash
+     python main.py
+     ```
