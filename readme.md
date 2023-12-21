@@ -21,7 +21,7 @@ This is the documentation for the Kopra Lapak Machine Learning API. It is a part
 
 ## Getting Started
 
-To run the API on your local computer, follow these steps:
+To run the API on your local computer, follow these steps :
 
 1. Clone this repository
    ```bash
