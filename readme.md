@@ -37,3 +37,8 @@ To run the API on your local computer, follow these steps:
      ```
 4. The API will be running on http://localhost:8000
 5. You can test the API using Postman or any other API testing tool.
+
+## Architecture
+<a href="">
+    <img src="https://drive.google.com/uc?id=1m8yUxhSIOMwwspr_i6NU98MlqGERNXdc" />
+ </a>
