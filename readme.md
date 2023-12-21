@@ -41,4 +41,4 @@ To run the API on your local computer, follow these steps:
 ## Architecture
 <a href="">
     <img src="https://drive.google.com/uc?id=1m8yUxhSIOMwwspr_i6NU98MlqGERNXdc" />
- </a>
+</a>
