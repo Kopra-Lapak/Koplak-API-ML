@@ -26,7 +26,7 @@ def allowed_file(filename):
 
 def predict_grade(image_path):
     img = Image.open(image_path).convert("RGB")
-    img = img.resize((150, 150))  # Sesuaikan dengan ukuran input model Anda
+    img = img.resize((224, 224))  # Sesuaikan dengan ukuran input model Anda
     x = tf_image.img_to_array(img)
     x = np.expand_dims(x, axis=0)
     x = x / 255.0
