@@ -9,8 +9,8 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image as tf_image
 
 
-url = "https://drive.google.com/uc?id=1QAsgzqY-62pWoAh6x4B7vDLOSZ1H0tXG"
-output = 'model-kopra.h5'
+url = "https://drive.google.com/uc?id=1VEhnYFRU3z9EqqMLMoZNFfbfvaHT6U5W"
+output = 'copra_classification_model.h5'
 gdown.download(url, output)
 
 load_dotenv()
