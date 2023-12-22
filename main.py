@@ -9,10 +9,9 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image as tf_image
 
 
-url = "https://drive.google.com/uc?id=1VEhnYFRU3z9EqqMLMoZNFfbfvaHT6U5W"
+url = "https://drive.google.com/uc?id=1QAsgzqY-62pWoAh6x4B7vDLOSZ1H0tXG"
 output = 'model-kopra.h5'
 gdown.download(url, output)
-
 
 load_dotenv()
 app = Flask(__name__)
@@ -26,7 +25,7 @@ def allowed_file(filename):
 
 def predict_grade(image_path):
     img = Image.open(image_path).convert("RGB")
-    img = img.resize((224, 224))  # Sesuaikan dengan ukuran input model Anda
+    img = img.resize((150, 150))  # Sesuaikan dengan ukuran input model Anda
     x = tf_image.img_to_array(img)
     x = np.expand_dims(x, axis=0)
     x = x / 255.0
